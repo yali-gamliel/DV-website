@@ -23,7 +23,7 @@ All team members share a similar background: we have a solid foundation in gener
 
 [Team Member 2 Name]: My programming experience is rooted in academic courses (Python, R, SQL, C#), without prior exposure to web technologies. I am excited to dive into web programming for this project. I will leverage LLMs as learning assistants to speed up my understanding of HTML/CSS structure and to help troubleshoot JavaScript code.
 
-[Team Member 3 Name] (אם יש): I have solid programming foundations in languages like C and C++ from university courses, but I am a beginner in web development. I intend to use LLMs to support my coding process, specifically for styling and DOM manipulation, ensuring I can dedicate my efforts to mastering D3.js and data handling.
+Mishelle Zolotoy: I have solid programming foundations in languages like python,C, C++ and SQL from university courses and former experience, but I am a beginner in web development. I intend to use LLMs to support my coding process, specifically for styling and DOM manipulation, ensuring I can dedicate my efforts to mastering D3.js and data handling.
 
 Technologies that we plan to use for web programming
 HTML5 for the page structure and semantic elements.
