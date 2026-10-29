@@ -5,14 +5,7 @@ Mapping the Impact of AI through Data – Data Visualization Project
 * Yali Gamliel - 10647957
 * Boaz Benush - 10648563
 * Mishelle Zolotoy - 10647935
-
-# Github repository
-[Link to your repository - e.g., https://github.com/username/repo-name]
-(Note: annalisabarla has been invited as a collaborator)
-
-# Github pages
-[Link to your pages - e.g., https://username.github.io/repo-name/]
-
+* 
 # Self-evaluation of web programming skills
 All team members share a similar background: we have a solid foundation in general programming and data analysis through our academic coursework (covering languages such as Python, R, SQL, Java, C, C#, and C++). However, this is our first hands-on experience with web development.
 
