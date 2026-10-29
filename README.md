@@ -6,17 +6,17 @@ Mapping the Impact of AI through Data – Data Visualization Project
 * Boaz Benush - 10648563
 * Mishelle Zolotoy - 
 
-Website setup
+# Website setup
 Team: POLA
 
-Github repository
+# Github repository
 [Link to your repository - e.g., https://github.com/username/repo-name]
 (Note: annalisabarla has been invited as a collaborator)
 
-Github pages
+# Github pages
 [Link to your pages - e.g., https://username.github.io/repo-name/]
 
-Self-evaluation of web programming skills
+# Self-evaluation of web programming skills
 All team members share a similar background: we have a solid foundation in general programming and data analysis through our academic coursework (covering languages such as Python, R, SQL, Java, C, C#, and C++). However, this is our first hands-on experience with web development.
 
 [Team Member 1 Name]: I have a strong background in general programming (Python, Java, C++) from my academic studies, but no prior experience in web development. I see this project as a great opportunity to learn HTML, CSS, JavaScript, and D3.js. I plan to use LLMs to help generate basic boilerplate code, understand web-specific syntax, and assist with debugging, allowing me to focus on the core logic of the visualizations.
