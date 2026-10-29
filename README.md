@@ -5,7 +5,7 @@ Mapping the Impact of AI through Data – Data Visualization Project
 * Yali Gamliel - 10647957
 * Boaz Benush - 10648563
 * Mishelle Zolotoy - 10647935
-* 
+  
 # Self-evaluation of web programming skills
 All team members share a similar background: we have a solid foundation in general programming and data analysis through our academic coursework (covering languages such as Python, R, SQL, Java, C, C#, and C++). However, this is our first hands-on experience with web development.
 
