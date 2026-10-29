@@ -1,13 +1,10 @@
-# DV-website
+# Website setup
 Mapping the Impact of AI through Data – Data Visualization Project
 
 # Team : Pola
 * Yali Gamliel - 10647957
 * Boaz Benush - 10648563
 * Mishelle Zolotoy - 10647935
-
-# Website setup
-Team: POLA
 
 # Github repository
 [Link to your repository - e.g., https://github.com/username/repo-name]
