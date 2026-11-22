@@ -137,8 +137,7 @@
     const change = obfuscated - standard;
     const changeLabel = (change > 0 ? "+" : "") + change;
     summary.textContent = selectedModel + ": " + standard + "/360 tasks solved with standard names, " +
-      obfuscated + "/360 with obfuscated names (difference: " + changeLabel + " tasks). " +
-      "";
+      obfuscated + "/360 with obfuscated names (difference: " + changeLabel + " tasks).";
     status.textContent = "";
   }
 
