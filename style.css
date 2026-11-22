@@ -337,3 +337,108 @@ footer p {
 @media (max-width: 600px) {
     .planning-chart-scroll svg { min-width: 670px; }
 }
+
+
+/* 11. PUBLIC OPINION HEATMAP */
+
+.opinion-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0;
+}
+
+.opinion-controls label { font-weight: 600; }
+
+.opinion-controls select {
+    max-width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #8B9BAA;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color: #25282A;
+    font: inherit;
+}
+
+.opinion-controls select:focus-visible {
+    outline: 2px solid #199BFC;
+    outline-offset: 3px;
+}
+
+.opinion-scale-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    margin-bottom: 12px;
+    font-size: 0.91rem;
+}
+
+#opinion-scale { width: 330px; max-width: 100%; }
+#opinion-scale svg { display: block; width: 100%; height: auto; }
+
+.opinion-figure { margin: 0; }
+
+.opinion-chart-scroll {
+    overflow-x: auto;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D6;
+    border-radius: 8px;
+    padding: 9px 5px;
+}
+
+.opinion-chart-scroll svg {
+    width: 100%;
+    min-width: 670px;
+    height: auto;
+    display: block;
+}
+
+.opinion-axis-title {
+    font-family: 'Fira Sans', sans-serif;
+    fill: #39434c;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.opinion-country-label,
+.opinion-scale-label {
+    font-family: 'Fira Sans', sans-serif;
+    fill: #39434c;
+    font-size: 13px;
+}
+
+.opinion-cell-label {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.opinion-global-row .opinion-country-label { font-weight: 700; }
+.opinion-global-separator { stroke: #7b8793; stroke-width: 1.5; }
+
+.opinion-country-row rect:focus-visible,
+.opinion-global-row rect:focus-visible {
+    outline: none;
+    stroke: #121212;
+    stroke-width: 2.5px;
+}
+
+.opinion-figure figcaption {
+    margin-top: 12px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.opinion-source {
+    font-size: 0.86rem;
+    color: #515d68;
+    margin-top: 16px;
+}
+
+.opinion-status { color: #A22D2D; }
+
+@media (max-width: 600px) {
+    .opinion-chart-scroll svg { min-width: 670px; }
+}
