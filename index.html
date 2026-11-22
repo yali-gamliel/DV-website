@@ -12,6 +12,9 @@
 
     <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
+    <!-- D3 chart library and the first interactive visualization -->
+    <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script defer src="js/planning.js"></script>
 </head>
 
 <body>
@@ -85,6 +88,62 @@
                 This section will be expanded throughout
                 the course with interactive visualizations.
             </p>
+
+            <article id="planning-robustness" class="planning-viz">
+                <h3>How Robust Is AI Planning?</h3>
+                <p>
+                    Do AI systems solve the same planning problems when meaningful
+                    names are replaced by unfamiliar labels? Compare two evaluation
+                    conditions across eight planning domains.
+                </p>
+
+                <div class="planning-controls">
+                    <label for="planning-model">Choose a system:</label>
+                    <select id="planning-model" name="planning-model">
+                        <option value="GPT-5" selected>GPT-5</option>
+                        <option value="Gemini">Gemini</option>
+                        <option value="R1">R1</option>
+                        <option value="LAMA">LAMA (classical planner)</option>
+                    </select>
+                </div>
+
+                <div class="planning-legend" aria-label="Chart legend">
+                    <span><span class="planning-swatch planning-standard"></span>Standard names</span>
+                    <span><span class="planning-swatch planning-obfuscated"></span>Obfuscated names</span>
+                </div>
+
+                <figure class="planning-figure">
+                    <div id="planning-chart" class="planning-chart-scroll">
+                        <p>Loading planning chart...</p>
+                    </div>
+                    <figcaption id="planning-summary">
+                        Select a system to compare the number of tasks solved.
+                    </figcaption>
+                </figure>
+                <p id="planning-status" class="planning-status" role="status"></p>
+
+                <details class="planning-glossary">
+                    <summary>What do the planning domain names mean?</summary>
+                    <ul>
+                        <li><strong>Blocksworld:</strong> Reorder stacks of blocks under movement rules.</li>
+                        <li><strong>Childsnack:</strong> Prepare and serve meals while satisfying constraints.</li>
+                        <li><strong>Floortile:</strong> Coordinate robots to paint floor tiles.</li>
+                        <li><strong>Miconic:</strong> Plan elevator pickups and passenger deliveries.</li>
+                        <li><strong>Rovers:</strong> Plan exploration, sampling, and data transmission.</li>
+                        <li><strong>Sokoban:</strong> Push boxes to targets without blocking the path.</li>
+                        <li><strong>Spanner:</strong> Collect tools and tighten nuts in the required order.</li>
+                        <li><strong>Transport:</strong> Move packages between locations using vehicles.</li>
+                    </ul>
+                </details>
+
+                <p class="planning-source">
+                    Each domain has 45 benchmark tasks per condition. LAMA is a
+                    classical planning algorithm, not a language model. These are
+                    controlled planning tasks, not real-world employment outcomes.
+                    Sources: Stanford AI Index 2026, Figures 2.4.9–2.4.10;
+                    <a href="https://arxiv.org/abs/2511.09378">original planning study</a>.
+                </p>
+            </article>
 
             <article>
                 <h3>AI Adoption Trends</h3>
