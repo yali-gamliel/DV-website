@@ -1,0 +1,514 @@
+[
+  {
+    "domain": "Blocksworld",
+    "model_planner": "LAMA",
+    "solved_tasks": 28,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 62.22
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "LAMA",
+    "solved_tasks": 28,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 62.22
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "LAMA",
+    "solved_tasks": 18,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 40.0
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "LAMA",
+    "solved_tasks": 18,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 40.0
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "LAMA",
+    "solved_tasks": 10,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 22.22
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "LAMA",
+    "solved_tasks": 10,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 22.22
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "LAMA",
+    "solved_tasks": 45,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 100.0
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "LAMA",
+    "solved_tasks": 45,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 100.0
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "LAMA",
+    "solved_tasks": 34,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 75.56
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "LAMA",
+    "solved_tasks": 34,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 75.56
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "LAMA",
+    "solved_tasks": 21,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 46.67
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "LAMA",
+    "solved_tasks": 21,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 46.67
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "LAMA",
+    "solved_tasks": 15,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 33.33
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "LAMA",
+    "solved_tasks": 15,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 33.33
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "LAMA",
+    "solved_tasks": 33,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 73.33
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "LAMA",
+    "solved_tasks": 33,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 73.33
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "R1",
+    "solved_tasks": 19,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 42.22
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "R1",
+    "solved_tasks": 3,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 6.67
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "R1",
+    "solved_tasks": 33,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 73.33
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "R1",
+    "solved_tasks": 28,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 62.22
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "R1",
+    "solved_tasks": 5,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 11.11
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "R1",
+    "solved_tasks": 0,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 0.0
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "R1",
+    "solved_tasks": 27,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 60.0
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "R1",
+    "solved_tasks": 14,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 31.11
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "R1",
+    "solved_tasks": 9,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 20.0
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "R1",
+    "solved_tasks": 5,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 11.11
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "R1",
+    "solved_tasks": 10,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 22.22
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "R1",
+    "solved_tasks": 0,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 0.0
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "R1",
+    "solved_tasks": 38,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 84.44
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "R1",
+    "solved_tasks": 34,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 75.56
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "R1",
+    "solved_tasks": 16,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 35.56
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "R1",
+    "solved_tasks": 9,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 20.0
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "Gemini",
+    "solved_tasks": 21,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 46.67
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "Gemini",
+    "solved_tasks": 28,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 62.22
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "Gemini",
+    "solved_tasks": 38,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 84.44
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "Gemini",
+    "solved_tasks": 25,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 55.56
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "Gemini",
+    "solved_tasks": 6,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 13.33
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "Gemini",
+    "solved_tasks": 5,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 11.11
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "Gemini",
+    "solved_tasks": 23,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 51.11
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "Gemini",
+    "solved_tasks": 9,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 20.0
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "Gemini",
+    "solved_tasks": 6,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 13.33
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "Gemini",
+    "solved_tasks": 8,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 17.78
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "Gemini",
+    "solved_tasks": 9,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 20.0
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "Gemini",
+    "solved_tasks": 5,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 11.11
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "Gemini",
+    "solved_tasks": 30,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 66.67
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "Gemini",
+    "solved_tasks": 39,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 86.67
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "Gemini",
+    "solved_tasks": 22,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 48.89
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "Gemini",
+    "solved_tasks": 27,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 60.0
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "GPT-5",
+    "solved_tasks": 21,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 46.67
+  },
+  {
+    "domain": "Blocksworld",
+    "model_planner": "GPT-5",
+    "solved_tasks": 12,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 26.67
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "GPT-5",
+    "solved_tasks": 38,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 84.44
+  },
+  {
+    "domain": "Childsnack",
+    "model_planner": "GPT-5",
+    "solved_tasks": 33,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 73.33
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "GPT-5",
+    "solved_tasks": 10,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 22.22
+  },
+  {
+    "domain": "Floortile",
+    "model_planner": "GPT-5",
+    "solved_tasks": 3,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 6.67
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "GPT-5",
+    "solved_tasks": 35,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 77.78
+  },
+  {
+    "domain": "Miconic",
+    "model_planner": "GPT-5",
+    "solved_tasks": 28,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 62.22
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "GPT-5",
+    "solved_tasks": 14,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 31.11
+  },
+  {
+    "domain": "Rovers",
+    "model_planner": "GPT-5",
+    "solved_tasks": 10,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 22.22
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "GPT-5",
+    "solved_tasks": 15,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 33.33
+  },
+  {
+    "domain": "Sokoban",
+    "model_planner": "GPT-5",
+    "solved_tasks": 7,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 15.56
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "GPT-5",
+    "solved_tasks": 45,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 100.0
+  },
+  {
+    "domain": "Spanner",
+    "model_planner": "GPT-5",
+    "solved_tasks": 38,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 84.44
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "GPT-5",
+    "solved_tasks": 27,
+    "condition": "Standard",
+    "total_tasks": 45,
+    "success_rate_pct": 60.0
+  },
+  {
+    "domain": "Transport",
+    "model_planner": "GPT-5",
+    "solved_tasks": 21,
+    "condition": "Obfuscated",
+    "total_tasks": 45,
+    "success_rate_pct": 46.67
+  }
+]
