@@ -138,7 +138,7 @@
     const changeLabel = (change > 0 ? "+" : "") + change;
     summary.textContent = selectedModel + ": " + standard + "/360 tasks solved with standard names, " +
       obfuscated + "/360 with obfuscated names (difference: " + changeLabel + " tasks). " +
-      "These are benchmark outcomes, not measurements of job replacement.";
+      "";
     status.textContent = "";
   }
 
