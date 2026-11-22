@@ -1,0 +1,674 @@
+[
+  {
+    "country": "Global",
+    "aspect": "My job",
+    "share_pct": 40.0,
+    "is_source_global": true,
+    "country_sort_order": 0
+  },
+  {
+    "country": "Global",
+    "aspect": "Job market",
+    "share_pct": 33.0,
+    "is_source_global": true,
+    "country_sort_order": 0
+  },
+  {
+    "country": "Global",
+    "aspect": "Country's economy",
+    "share_pct": 36.0,
+    "is_source_global": true,
+    "country_sort_order": 0
+  },
+  {
+    "country": "Indonesia",
+    "aspect": "My job",
+    "share_pct": 62.0,
+    "is_source_global": false,
+    "country_sort_order": 1
+  },
+  {
+    "country": "Indonesia",
+    "aspect": "Job market",
+    "share_pct": 47.0,
+    "is_source_global": false,
+    "country_sort_order": 1
+  },
+  {
+    "country": "Indonesia",
+    "aspect": "Country's economy",
+    "share_pct": 49.0,
+    "is_source_global": false,
+    "country_sort_order": 1
+  },
+  {
+    "country": "Australia",
+    "aspect": "My job",
+    "share_pct": 31.0,
+    "is_source_global": false,
+    "country_sort_order": 2
+  },
+  {
+    "country": "Australia",
+    "aspect": "Job market",
+    "share_pct": 18.0,
+    "is_source_global": false,
+    "country_sort_order": 2
+  },
+  {
+    "country": "Australia",
+    "aspect": "Country's economy",
+    "share_pct": 26.0,
+    "is_source_global": false,
+    "country_sort_order": 2
+  },
+  {
+    "country": "China",
+    "aspect": "My job",
+    "share_pct": 65.0,
+    "is_source_global": false,
+    "country_sort_order": 3
+  },
+  {
+    "country": "China",
+    "aspect": "Job market",
+    "share_pct": 52.0,
+    "is_source_global": false,
+    "country_sort_order": 3
+  },
+  {
+    "country": "China",
+    "aspect": "Country's economy",
+    "share_pct": 75.0,
+    "is_source_global": false,
+    "country_sort_order": 3
+  },
+  {
+    "country": "United States",
+    "aspect": "My job",
+    "share_pct": 33.0,
+    "is_source_global": false,
+    "country_sort_order": 4
+  },
+  {
+    "country": "United States",
+    "aspect": "Job market",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 4
+  },
+  {
+    "country": "United States",
+    "aspect": "Country's economy",
+    "share_pct": 28.0,
+    "is_source_global": false,
+    "country_sort_order": 4
+  },
+  {
+    "country": "France",
+    "aspect": "My job",
+    "share_pct": 34.0,
+    "is_source_global": false,
+    "country_sort_order": 5
+  },
+  {
+    "country": "France",
+    "aspect": "Job market",
+    "share_pct": 23.0,
+    "is_source_global": false,
+    "country_sort_order": 5
+  },
+  {
+    "country": "France",
+    "aspect": "Country's economy",
+    "share_pct": 28.0,
+    "is_source_global": false,
+    "country_sort_order": 5
+  },
+  {
+    "country": "Ireland",
+    "aspect": "My job",
+    "share_pct": 33.0,
+    "is_source_global": false,
+    "country_sort_order": 6
+  },
+  {
+    "country": "Ireland",
+    "aspect": "Job market",
+    "share_pct": 22.0,
+    "is_source_global": false,
+    "country_sort_order": 6
+  },
+  {
+    "country": "Ireland",
+    "aspect": "Country's economy",
+    "share_pct": 28.0,
+    "is_source_global": false,
+    "country_sort_order": 6
+  },
+  {
+    "country": "Sweden",
+    "aspect": "My job",
+    "share_pct": 31.0,
+    "is_source_global": false,
+    "country_sort_order": 7
+  },
+  {
+    "country": "Sweden",
+    "aspect": "Job market",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 7
+  },
+  {
+    "country": "Sweden",
+    "aspect": "Country's economy",
+    "share_pct": 21.0,
+    "is_source_global": false,
+    "country_sort_order": 7
+  },
+  {
+    "country": "Great Britain",
+    "aspect": "My job",
+    "share_pct": 30.0,
+    "is_source_global": false,
+    "country_sort_order": 8
+  },
+  {
+    "country": "Great Britain",
+    "aspect": "Job market",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 8
+  },
+  {
+    "country": "Great Britain",
+    "aspect": "Country's economy",
+    "share_pct": 24.0,
+    "is_source_global": false,
+    "country_sort_order": 8
+  },
+  {
+    "country": "Singapore",
+    "aspect": "My job",
+    "share_pct": 49.0,
+    "is_source_global": false,
+    "country_sort_order": 9
+  },
+  {
+    "country": "Singapore",
+    "aspect": "Job market",
+    "share_pct": 39.0,
+    "is_source_global": false,
+    "country_sort_order": 9
+  },
+  {
+    "country": "Singapore",
+    "aspect": "Country's economy",
+    "share_pct": 57.0,
+    "is_source_global": false,
+    "country_sort_order": 9
+  },
+  {
+    "country": "Chile",
+    "aspect": "My job",
+    "share_pct": 44.0,
+    "is_source_global": false,
+    "country_sort_order": 10
+  },
+  {
+    "country": "Chile",
+    "aspect": "Job market",
+    "share_pct": 35.0,
+    "is_source_global": false,
+    "country_sort_order": 10
+  },
+  {
+    "country": "Chile",
+    "aspect": "Country's economy",
+    "share_pct": 42.0,
+    "is_source_global": false,
+    "country_sort_order": 10
+  },
+  {
+    "country": "Malaysia",
+    "aspect": "My job",
+    "share_pct": 54.0,
+    "is_source_global": false,
+    "country_sort_order": 11
+  },
+  {
+    "country": "Malaysia",
+    "aspect": "Job market",
+    "share_pct": 45.0,
+    "is_source_global": false,
+    "country_sort_order": 11
+  },
+  {
+    "country": "Malaysia",
+    "aspect": "Country's economy",
+    "share_pct": 54.0,
+    "is_source_global": false,
+    "country_sort_order": 11
+  },
+  {
+    "country": "Netherlands",
+    "aspect": "My job",
+    "share_pct": 28.0,
+    "is_source_global": false,
+    "country_sort_order": 12
+  },
+  {
+    "country": "Netherlands",
+    "aspect": "Job market",
+    "share_pct": 19.0,
+    "is_source_global": false,
+    "country_sort_order": 12
+  },
+  {
+    "country": "Netherlands",
+    "aspect": "Country's economy",
+    "share_pct": 30.0,
+    "is_source_global": false,
+    "country_sort_order": 12
+  },
+  {
+    "country": "Thailand",
+    "aspect": "My job",
+    "share_pct": 60.0,
+    "is_source_global": false,
+    "country_sort_order": 13
+  },
+  {
+    "country": "Thailand",
+    "aspect": "Job market",
+    "share_pct": 51.0,
+    "is_source_global": false,
+    "country_sort_order": 13
+  },
+  {
+    "country": "Thailand",
+    "aspect": "Country's economy",
+    "share_pct": 54.0,
+    "is_source_global": false,
+    "country_sort_order": 13
+  },
+  {
+    "country": "Hungary",
+    "aspect": "My job",
+    "share_pct": 32.0,
+    "is_source_global": false,
+    "country_sort_order": 14
+  },
+  {
+    "country": "Hungary",
+    "aspect": "Job market",
+    "share_pct": 24.0,
+    "is_source_global": false,
+    "country_sort_order": 14
+  },
+  {
+    "country": "Hungary",
+    "aspect": "Country's economy",
+    "share_pct": 23.0,
+    "is_source_global": false,
+    "country_sort_order": 14
+  },
+  {
+    "country": "Switzerland",
+    "aspect": "My job",
+    "share_pct": 33.0,
+    "is_source_global": false,
+    "country_sort_order": 15
+  },
+  {
+    "country": "Switzerland",
+    "aspect": "Job market",
+    "share_pct": 25.0,
+    "is_source_global": false,
+    "country_sort_order": 15
+  },
+  {
+    "country": "Switzerland",
+    "aspect": "Country's economy",
+    "share_pct": 32.0,
+    "is_source_global": false,
+    "country_sort_order": 15
+  },
+  {
+    "country": "Canada",
+    "aspect": "My job",
+    "share_pct": 22.0,
+    "is_source_global": false,
+    "country_sort_order": 16
+  },
+  {
+    "country": "Canada",
+    "aspect": "Job market",
+    "share_pct": 15.0,
+    "is_source_global": false,
+    "country_sort_order": 16
+  },
+  {
+    "country": "Canada",
+    "aspect": "Country's economy",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 16
+  },
+  {
+    "country": "Germany",
+    "aspect": "My job",
+    "share_pct": 28.0,
+    "is_source_global": false,
+    "country_sort_order": 17
+  },
+  {
+    "country": "Germany",
+    "aspect": "Job market",
+    "share_pct": 21.0,
+    "is_source_global": false,
+    "country_sort_order": 17
+  },
+  {
+    "country": "Germany",
+    "aspect": "Country's economy",
+    "share_pct": 28.0,
+    "is_source_global": false,
+    "country_sort_order": 17
+  },
+  {
+    "country": "India",
+    "aspect": "My job",
+    "share_pct": 55.0,
+    "is_source_global": false,
+    "country_sort_order": 18
+  },
+  {
+    "country": "India",
+    "aspect": "Job market",
+    "share_pct": 48.0,
+    "is_source_global": false,
+    "country_sort_order": 18
+  },
+  {
+    "country": "India",
+    "aspect": "Country's economy",
+    "share_pct": 49.0,
+    "is_source_global": false,
+    "country_sort_order": 18
+  },
+  {
+    "country": "Italy",
+    "aspect": "My job",
+    "share_pct": 34.0,
+    "is_source_global": false,
+    "country_sort_order": 19
+  },
+  {
+    "country": "Italy",
+    "aspect": "Job market",
+    "share_pct": 27.0,
+    "is_source_global": false,
+    "country_sort_order": 19
+  },
+  {
+    "country": "Italy",
+    "aspect": "Country's economy",
+    "share_pct": 25.0,
+    "is_source_global": false,
+    "country_sort_order": 19
+  },
+  {
+    "country": "Belgium",
+    "aspect": "My job",
+    "share_pct": 27.0,
+    "is_source_global": false,
+    "country_sort_order": 20
+  },
+  {
+    "country": "Belgium",
+    "aspect": "Job market",
+    "share_pct": 21.0,
+    "is_source_global": false,
+    "country_sort_order": 20
+  },
+  {
+    "country": "Belgium",
+    "aspect": "Country's economy",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 20
+  },
+  {
+    "country": "Colombia",
+    "aspect": "My job",
+    "share_pct": 45.0,
+    "is_source_global": false,
+    "country_sort_order": 21
+  },
+  {
+    "country": "Colombia",
+    "aspect": "Job market",
+    "share_pct": 39.0,
+    "is_source_global": false,
+    "country_sort_order": 21
+  },
+  {
+    "country": "Colombia",
+    "aspect": "Country's economy",
+    "share_pct": 38.0,
+    "is_source_global": false,
+    "country_sort_order": 21
+  },
+  {
+    "country": "South Africa",
+    "aspect": "My job",
+    "share_pct": 50.0,
+    "is_source_global": false,
+    "country_sort_order": 22
+  },
+  {
+    "country": "South Africa",
+    "aspect": "Job market",
+    "share_pct": 45.0,
+    "is_source_global": false,
+    "country_sort_order": 22
+  },
+  {
+    "country": "South Africa",
+    "aspect": "Country's economy",
+    "share_pct": 45.0,
+    "is_source_global": false,
+    "country_sort_order": 22
+  },
+  {
+    "country": "Spain",
+    "aspect": "My job",
+    "share_pct": 30.0,
+    "is_source_global": false,
+    "country_sort_order": 23
+  },
+  {
+    "country": "Spain",
+    "aspect": "Job market",
+    "share_pct": 25.0,
+    "is_source_global": false,
+    "country_sort_order": 23
+  },
+  {
+    "country": "Spain",
+    "aspect": "Country's economy",
+    "share_pct": 26.0,
+    "is_source_global": false,
+    "country_sort_order": 23
+  },
+  {
+    "country": "Brazil",
+    "aspect": "My job",
+    "share_pct": 44.0,
+    "is_source_global": false,
+    "country_sort_order": 24
+  },
+  {
+    "country": "Brazil",
+    "aspect": "Job market",
+    "share_pct": 40.0,
+    "is_source_global": false,
+    "country_sort_order": 24
+  },
+  {
+    "country": "Brazil",
+    "aspect": "Country's economy",
+    "share_pct": 37.0,
+    "is_source_global": false,
+    "country_sort_order": 24
+  },
+  {
+    "country": "South Korea",
+    "aspect": "My job",
+    "share_pct": 18.0,
+    "is_source_global": false,
+    "country_sort_order": 25
+  },
+  {
+    "country": "South Korea",
+    "aspect": "Job market",
+    "share_pct": 14.0,
+    "is_source_global": false,
+    "country_sort_order": 25
+  },
+  {
+    "country": "South Korea",
+    "aspect": "Country's economy",
+    "share_pct": 29.0,
+    "is_source_global": false,
+    "country_sort_order": 25
+  },
+  {
+    "country": "Mexico",
+    "aspect": "My job",
+    "share_pct": 47.0,
+    "is_source_global": false,
+    "country_sort_order": 26
+  },
+  {
+    "country": "Mexico",
+    "aspect": "Job market",
+    "share_pct": 45.0,
+    "is_source_global": false,
+    "country_sort_order": 26
+  },
+  {
+    "country": "Mexico",
+    "aspect": "Country's economy",
+    "share_pct": 43.0,
+    "is_source_global": false,
+    "country_sort_order": 26
+  },
+  {
+    "country": "Peru",
+    "aspect": "My job",
+    "share_pct": 51.0,
+    "is_source_global": false,
+    "country_sort_order": 27
+  },
+  {
+    "country": "Peru",
+    "aspect": "Job market",
+    "share_pct": 50.0,
+    "is_source_global": false,
+    "country_sort_order": 27
+  },
+  {
+    "country": "Peru",
+    "aspect": "Country's economy",
+    "share_pct": 43.0,
+    "is_source_global": false,
+    "country_sort_order": 27
+  },
+  {
+    "country": "Poland",
+    "aspect": "My job",
+    "share_pct": 25.0,
+    "is_source_global": false,
+    "country_sort_order": 28
+  },
+  {
+    "country": "Poland",
+    "aspect": "Job market",
+    "share_pct": 24.0,
+    "is_source_global": false,
+    "country_sort_order": 28
+  },
+  {
+    "country": "Poland",
+    "aspect": "Country's economy",
+    "share_pct": 32.0,
+    "is_source_global": false,
+    "country_sort_order": 28
+  },
+  {
+    "country": "Japan",
+    "aspect": "My job",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 29
+  },
+  {
+    "country": "Japan",
+    "aspect": "Job market",
+    "share_pct": 20.0,
+    "is_source_global": false,
+    "country_sort_order": 29
+  },
+  {
+    "country": "Japan",
+    "aspect": "Country's economy",
+    "share_pct": 21.0,
+    "is_source_global": false,
+    "country_sort_order": 29
+  },
+  {
+    "country": "Argentina",
+    "aspect": "My job",
+    "share_pct": 39.0,
+    "is_source_global": false,
+    "country_sort_order": 30
+  },
+  {
+    "country": "Argentina",
+    "aspect": "Job market",
+    "share_pct": 41.0,
+    "is_source_global": false,
+    "country_sort_order": 30
+  },
+  {
+    "country": "Argentina",
+    "aspect": "Country's economy",
+    "share_pct": 36.0,
+    "is_source_global": false,
+    "country_sort_order": 30
+  },
+  {
+    "country": "Turkey",
+    "aspect": "My job",
+    "share_pct": 42.0,
+    "is_source_global": false,
+    "country_sort_order": 31
+  },
+  {
+    "country": "Turkey",
+    "aspect": "Job market",
+    "share_pct": 45.0,
+    "is_source_global": false,
+    "country_sort_order": 31
+  },
+  {
+    "country": "Turkey",
+    "aspect": "Country's economy",
+    "share_pct": 31.0,
+    "is_source_global": false,
+    "country_sort_order": 31
+  }
+]

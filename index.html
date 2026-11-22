@@ -12,6 +12,10 @@
 
     <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
+    <!-- D3 chart library shared by the independent visualization modules -->
+    <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script defer src="js/planning.js"></script>
+    <script defer src="js/public-opinion.js"></script>
 </head>
 
 <body>
@@ -34,18 +38,15 @@
             <h2>About the Project</h2>
 
             <p>
-                This project explores the impact of Artificial
-                Intelligence on society, the economy, and
-                the world of work through interactive
-                data visualizations.
+                Is AI really replacing human work? Our project examines how public
+                expectations compare with what AI systems can actually do and
+                what is changing in the workplace.
             </p>
 
             <p>
-                Our goal is to make complex AI-related data
-                easier to understand, compare, and explore.
-                As the project develops, we will add
-                visualizations that highlight trends,
-                differences, and patterns in AI adoption.
+                Through data visualizations, we explore public perceptions,
+                measured AI capabilities, and patterns of AI use and employment.
+                We aim to highlight what the evidence shows and what remains uncertain.
             </p>
         </section>
 
@@ -53,53 +54,149 @@
             <h2>Data Sources</h2>
 
             <p>
-                We plan to explore publicly available datasets
-                from sources such as:
+                Our project draws on and evaluates datasets from the following
+                research and statistical sources:
             </p>
 
+            <!-- Sources identified in the group's research proposal. -->
             <ul>
                 <li>
-                    <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">
-                        Stanford AI Index
-                    </a>
+                    <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">Stanford AI Index 2026</a>
+                    — public opinion, technical performance, and economic indicators.
                 </li>
-
                 <li>
-                    <a href="https://ourworldindata.org/artificial-intelligence">
-                        Our World in Data
-                    </a>
+                    <a href="https://www.pewresearch.org/internet/2025/04/03/public-and-expert-predictions-for-ais-next-20-years/">Pew Research Center</a>
+                    — public and AI-expert expectations about jobs.
                 </li>
-
                 <li>
-                    <a href="https://oecd.ai/en/">
-                        OECD AI
-                    </a>
+                    <a href="https://www.ipsos.com/sites/default/files/ct/publication/documents/2025-06/Ipsos-AI-Monitor-2025.pdf">Ipsos AI Monitor</a>
+                    — views about AI across countries.
+                </li>
+                <li>
+                    <a href="https://huggingface.co/datasets/Anthropic/EconomicIndex">Anthropic Economic Index</a>
+                    — observed patterns of AI use in occupational tasks.
+                </li>
+                <li>
+                    <a href="https://ec.europa.eu/eurostat/databrowser/view/lfsa_egai2d/default/table">Eurostat Labour Force Survey</a>
+                    — historical European employment by occupation.
+                </li>
+                <li>
+                    U.S. Bureau of Labor Statistics (BLS) —
+                    <a href="https://www.bls.gov/oes/tables.htm">occupational employment and wages</a>
+                    and <a href="https://www.bls.gov/emp/">employment projections</a>.
                 </li>
             </ul>
         </section>
 
         <section id="visualizations">
-            <h2>Interactive Visualizations</h2>
+            <h2>Visualizations</h2>
 
-            <p>
-                This section will be expanded throughout
-                the course with interactive visualizations.
-            </p>
+            <article id="planning-robustness" class="planning-viz">
+                <h3>How Robust Is AI Planning?</h3>
+                <p>
+                    Do AI systems solve the same planning problems when meaningful
+                    names are replaced by unfamiliar labels? Compare two evaluation
+                    conditions across eight planning domains.
+                </p>
+
+                <div class="planning-controls">
+                    <label for="planning-model">Choose a system:</label>
+                    <select id="planning-model" name="planning-model">
+                        <option value="GPT-5" selected>GPT-5</option>
+                        <option value="Gemini">Gemini</option>
+                        <option value="R1">R1</option>
+                        <option value="LAMA">LAMA (classical planner)</option>
+                    </select>
+                </div>
+
+                <div class="planning-legend" aria-label="Chart legend">
+                    <span><span class="planning-swatch planning-standard"></span>Standard names</span>
+                    <span><span class="planning-swatch planning-obfuscated"></span>Obfuscated names</span>
+                </div>
+
+                <figure class="planning-figure">
+                    <div id="planning-chart" class="planning-chart-scroll">
+                        <p>Loading planning chart...</p>
+                    </div>
+                    <figcaption id="planning-summary">
+                        Select a system to compare the number of tasks solved.
+                    </figcaption>
+                </figure>
+                <p id="planning-status" class="planning-status" role="status"></p>
+
+                <details class="planning-glossary">
+                    <summary>What do the planning domain names mean?</summary>
+                    <ul>
+                        <li><strong>Blocksworld:</strong> Reorder stacks of blocks under movement rules.</li>
+                        <li><strong>Childsnack:</strong> Prepare and serve meals while satisfying constraints.</li>
+                        <li><strong>Floortile:</strong> Coordinate robots to paint floor tiles.</li>
+                        <li><strong>Miconic:</strong> Plan elevator pickups and passenger deliveries.</li>
+                        <li><strong>Rovers:</strong> Plan exploration, sampling, and data transmission.</li>
+                        <li><strong>Sokoban:</strong> Push boxes to targets without blocking the path.</li>
+                        <li><strong>Spanner:</strong> Collect tools and tighten nuts in the required order.</li>
+                        <li><strong>Transport:</strong> Move packages between locations using vehicles.</li>
+                    </ul>
+                </details>
+
+                <p class="planning-source">
+                    Each domain has 45 benchmark tasks per condition. LAMA is a
+                    classical planning algorithm, not a language model.
+                    Sources: Stanford AI Index 2026, Figures 2.4.9–2.4.10;
+                    <a href="https://arxiv.org/abs/2511.09378">original planning study</a>.
+                </p>
+            </article>
+
+            <article id="public-opinion" class="opinion-viz">
+                <h3>Will AI Improve Our Jobs — or the Job Market?</h3>
+                <p>
+                    Across countries, how optimistic are people that increased AI
+                    use will improve their own job, the job market, and their
+                    country's economy over the next 3–5 years?
+                </p>
+
+                <div class="opinion-controls">
+                    <label for="opinion-sort">Sort countries:</label>
+                    <select id="opinion-sort" name="opinion-sort">
+                        <option value="gap" selected>Difference: own job minus job market</option>
+                        <option value="alphabetical">Alphabetically</option>
+                    </select>
+                </div>
+
+                <div class="opinion-scale-wrap">
+                    <span>Share expecting improvement (0–100%)</span>
+                    <div id="opinion-scale"></div>
+                </div>
+
+                <figure class="opinion-figure">
+                    <div id="opinion-chart" class="opinion-chart-scroll">
+                        <p>Loading public opinion heatmap...</p>
+                    </div>
+                    <figcaption id="opinion-summary">
+                        Comparing expectations across countries.
+                    </figcaption>
+                </figure>
+                <p id="opinion-status" class="opinion-status" role="status"></p>
+
+                <p class="opinion-source">
+                    Source: Stanford AI Index 2026, Figure 9.1.6
+                    (Ipsos, 2025).
+                </p>
+            </article>
 
             <article>
-                <h3>AI Adoption Trends</h3>
+                <h3>AI at Work: Automation and Augmentation</h3>
                 <p>
-                    Exploring how AI adoption changes
-                    over time and across different regions.
+                    Exploring how AI is used to automate tasks or assist people
+                    across different occupations.
                 </p>
                 <p>Coming soon.</p>
             </article>
 
             <article>
-                <h3>AI and Employment</h3>
+                <h3>Employment Trends and Future Projections</h3>
                 <p>
-                    Exploring the relationship between
-                    artificial intelligence and the labor market.
+                    Exploring historical employment patterns in European occupations
+                    and projected changes in U.S. occupations.
                 </p>
                 <p>Coming soon.</p>
             </article>

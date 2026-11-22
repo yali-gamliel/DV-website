@@ -202,3 +202,243 @@ footer p {
         font-size: 0.85rem;
     }
 }
+
+
+/* 10. PLANNING ROBUSTNESS GROUPED BAR CHART */
+
+.planning-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0 12px;
+}
+
+.planning-controls label {
+    font-weight: 600;
+}
+
+.planning-controls select {
+    min-width: 165px;
+    padding: 9px 12px;
+    border: 1px solid #8B9BAA;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color: #25282A;
+    font: inherit;
+}
+
+.planning-controls select:focus-visible,
+.planning-glossary summary:focus-visible {
+    outline: 2px solid #199BFC;
+    outline-offset: 3px;
+}
+
+.planning-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 0.93rem;
+    margin: 12px 0;
+}
+
+.planning-legend > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.planning-swatch {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.planning-standard { background: #1766a6; }
+.planning-obfuscated { background: #cc722d; }
+
+.planning-figure { margin: 0; }
+
+.planning-chart-scroll {
+    overflow-x: auto;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D6;
+    border-radius: 8px;
+    padding: 10px 4px;
+}
+
+.planning-chart-scroll svg {
+    display: block;
+    width: 100%;
+    min-width: 670px;
+    height: auto;
+}
+
+.planning-axis text {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    fill: #39434c;
+}
+
+.planning-axis path,
+.planning-axis line {
+    stroke: #87949c;
+}
+
+.planning-grid line {
+    stroke: #E5EAF0;
+}
+
+.planning-grid path { display: none; }
+
+.planning-axis-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    fill: #39434c;
+}
+
+.planning-domain-group rect:focus-visible {
+    outline: none;
+    stroke: #111111;
+    stroke-width: 3px;
+}
+
+.planning-figure figcaption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.planning-glossary {
+    margin-top: 18px;
+}
+
+.planning-glossary summary {
+    color: #002677;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.planning-glossary ul { margin: 10px 0 0; }
+.planning-glossary li { margin-bottom: 5px; }
+
+.planning-source {
+    font-size: 0.86rem;
+    color: #515d68;
+    margin-top: 16px;
+}
+
+.planning-status {
+    color: #A22D2D;
+    margin: 8px 0;
+}
+
+@media (max-width: 600px) {
+    .planning-chart-scroll svg { min-width: 670px; }
+}
+
+
+/* 11. PUBLIC OPINION HEATMAP */
+
+.opinion-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0;
+}
+
+.opinion-controls label { font-weight: 600; }
+
+.opinion-controls select {
+    max-width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #8B9BAA;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color: #25282A;
+    font: inherit;
+}
+
+.opinion-controls select:focus-visible {
+    outline: 2px solid #199BFC;
+    outline-offset: 3px;
+}
+
+.opinion-scale-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    margin-bottom: 12px;
+    font-size: 0.91rem;
+}
+
+#opinion-scale { width: 330px; max-width: 100%; }
+#opinion-scale svg { display: block; width: 100%; height: auto; }
+
+.opinion-figure { margin: 0; }
+
+.opinion-chart-scroll {
+    overflow-x: auto;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D6;
+    border-radius: 8px;
+    padding: 9px 5px;
+}
+
+.opinion-chart-scroll svg {
+    width: 100%;
+    min-width: 670px;
+    height: auto;
+    display: block;
+}
+
+.opinion-axis-title {
+    font-family: 'Fira Sans', sans-serif;
+    fill: #39434c;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.opinion-country-label,
+.opinion-scale-label {
+    font-family: 'Fira Sans', sans-serif;
+    fill: #39434c;
+    font-size: 13px;
+}
+
+.opinion-cell-label {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.opinion-global-row .opinion-country-label { font-weight: 700; }
+.opinion-global-separator { stroke: #7b8793; stroke-width: 1.5; }
+
+.opinion-country-row rect:focus-visible,
+.opinion-global-row rect:focus-visible {
+    outline: none;
+    stroke: #121212;
+    stroke-width: 2.5px;
+}
+
+.opinion-figure figcaption {
+    margin-top: 12px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.opinion-source {
+    font-size: 0.86rem;
+    color: #515d68;
+    margin-top: 16px;
+}
+
+.opinion-status { color: #A22D2D; }
+
+@media (max-width: 600px) {
+    .opinion-chart-scroll svg { min-width: 670px; }
+}
