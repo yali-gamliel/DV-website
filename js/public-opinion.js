@@ -155,7 +155,7 @@
       group.append("text")
         .attr("class", "opinion-country-label")
         .attr("x", 10).attr("y", y + rowHeight / 2 + 5)
-        .text(country === "Global" ? "Global*" : country);
+        .text(country);
 
       aspects.forEach((aspect, col) => {
         const val = value(country, aspect.key);
@@ -202,7 +202,7 @@
       "In " + greater + " of " + countries.length +
       " countries, a higher share expect AI to improve their own job than the wider job market" +
       " (" + lower + " show the opposite; " + equal + " tie)." +
-      " These are expectations, not measured changes in employment.";
+      "";
     statusElement.textContent = "";
   }
 
