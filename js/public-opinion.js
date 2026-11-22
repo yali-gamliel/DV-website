@@ -201,8 +201,7 @@
     summaryElement.textContent =
       "In " + greater + " of " + countries.length +
       " countries, a higher share expect AI to improve their own job than the wider job market" +
-      " (" + lower + " show the opposite; " + equal + " tie)." +
-      "";
+      " (" + lower + " show the opposite; " + equal + " tie).";
     statusElement.textContent = "";
   }
 
