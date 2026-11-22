@@ -12,7 +12,7 @@
 
     <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
-    <!-- D3 chart library and the first interactive visualization -->
+    <!-- D3 chart library shared by the independent visualization modules -->
     <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <script defer src="js/planning.js"></script>
     <script defer src="js/public-opinion.js"></script>
@@ -38,18 +38,15 @@
             <h2>About the Project</h2>
 
             <p>
-                This project explores the impact of Artificial
-                Intelligence on society, the economy, and
-                the world of work through interactive
-                data visualizations.
+                Is AI really replacing human work? Our project examines how public
+                expectations compare with what AI systems can actually do and
+                what is changing in the workplace.
             </p>
 
             <p>
-                Our goal is to make complex AI-related data
-                easier to understand, compare, and explore.
-                As the project develops, we will add
-                visualizations that highlight trends,
-                differences, and patterns in AI adoption.
+                Through data visualizations, we explore public perceptions,
+                measured AI capabilities, and patterns of AI use and employment.
+                We aim to highlight what the evidence shows and what remains uncertain.
             </p>
         </section>
 
@@ -57,38 +54,42 @@
             <h2>Data Sources</h2>
 
             <p>
-                We plan to explore publicly available datasets
-                from sources such as:
+                Our project draws on and evaluates datasets from the following
+                research and statistical sources:
             </p>
 
+            <!-- Sources identified in the group's research proposal. -->
             <ul>
                 <li>
-                    <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">
-                        Stanford AI Index
-                    </a>
+                    <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">Stanford AI Index 2026</a>
+                    — public opinion, technical performance, and economic indicators.
                 </li>
-
                 <li>
-                    <a href="https://ourworldindata.org/artificial-intelligence">
-                        Our World in Data
-                    </a>
+                    <a href="https://www.pewresearch.org/internet/2025/04/03/public-and-expert-predictions-for-ais-next-20-years/">Pew Research Center</a>
+                    — public and AI-expert expectations about jobs.
                 </li>
-
                 <li>
-                    <a href="https://oecd.ai/en/">
-                        OECD AI
-                    </a>
+                    <a href="https://www.ipsos.com/sites/default/files/ct/publication/documents/2025-06/Ipsos-AI-Monitor-2025.pdf">Ipsos AI Monitor</a>
+                    — views about AI across countries.
+                </li>
+                <li>
+                    <a href="https://huggingface.co/datasets/Anthropic/EconomicIndex">Anthropic Economic Index</a>
+                    — observed patterns of AI use in occupational tasks.
+                </li>
+                <li>
+                    <a href="https://ec.europa.eu/eurostat/databrowser/view/lfsa_egai2d/default/table">Eurostat Labour Force Survey</a>
+                    — historical European employment by occupation.
+                </li>
+                <li>
+                    U.S. Bureau of Labor Statistics (BLS) —
+                    <a href="https://www.bls.gov/oes/tables.htm">occupational employment and wages</a>
+                    and <a href="https://www.bls.gov/emp/">employment projections</a>.
                 </li>
             </ul>
         </section>
 
         <section id="visualizations">
-            <h2>Interactive Visualizations</h2>
-
-            <p>
-                This section will be expanded throughout
-                the course with interactive visualizations.
-            </p>
+            <h2>Visualizations</h2>
 
             <article id="planning-robustness" class="planning-viz">
                 <h3>How Robust Is AI Planning?</h3>
@@ -139,8 +140,7 @@
 
                 <p class="planning-source">
                     Each domain has 45 benchmark tasks per condition. LAMA is a
-                    classical planning algorithm, not a language model. These are
-                    controlled planning tasks, not real-world employment outcomes.
+                    classical planning algorithm, not a language model.
                     Sources: Stanford AI Index 2026, Figures 2.4.9–2.4.10;
                     <a href="https://arxiv.org/abs/2511.09378">original planning study</a>.
                 </p>
@@ -178,28 +178,25 @@
                 <p id="opinion-status" class="opinion-status" role="status"></p>
 
                 <p class="opinion-source">
-                    *Global is the published survey aggregate, not an unweighted
-                    average of these countries. Percentages represent respondents
-                    expecting things to get <em>better</em>, not observed job
-                    creation or displacement. Source: Stanford AI Index 2026,
-                    Figure 9.1.6 (Ipsos, 2025).
+                    Source: Stanford AI Index 2026, Figure 9.1.6
+                    (Ipsos, 2025).
                 </p>
             </article>
 
             <article>
-                <h3>AI Adoption Trends</h3>
+                <h3>AI at Work: Automation and Augmentation</h3>
                 <p>
-                    Exploring how AI adoption changes
-                    over time and across different regions.
+                    Exploring how AI is used to automate tasks or assist people
+                    across different occupations.
                 </p>
                 <p>Coming soon.</p>
             </article>
 
             <article>
-                <h3>AI and Employment</h3>
+                <h3>Employment Trends and Future Projections</h3>
                 <p>
-                    Exploring the relationship between
-                    artificial intelligence and the labor market.
+                    Exploring historical employment patterns in European occupations
+                    and projected changes in U.S. occupations.
                 </p>
                 <p>Coming soon.</p>
             </article>
