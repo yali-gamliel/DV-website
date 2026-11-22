@@ -15,6 +15,7 @@
     <!-- D3 chart library and the first interactive visualization -->
     <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <script defer src="js/planning.js"></script>
+    <script defer src="js/public-opinion.js"></script>
 </head>
 
 <body>
@@ -142,6 +143,46 @@
                     controlled planning tasks, not real-world employment outcomes.
                     Sources: Stanford AI Index 2026, Figures 2.4.9–2.4.10;
                     <a href="https://arxiv.org/abs/2511.09378">original planning study</a>.
+                </p>
+            </article>
+
+            <article id="public-opinion" class="opinion-viz">
+                <h3>Will AI Improve Our Jobs — or the Job Market?</h3>
+                <p>
+                    Across countries, how optimistic are people that increased AI
+                    use will improve their own job, the job market, and their
+                    country's economy over the next 3–5 years?
+                </p>
+
+                <div class="opinion-controls">
+                    <label for="opinion-sort">Sort countries:</label>
+                    <select id="opinion-sort" name="opinion-sort">
+                        <option value="gap" selected>Difference: own job minus job market</option>
+                        <option value="alphabetical">Alphabetically</option>
+                    </select>
+                </div>
+
+                <div class="opinion-scale-wrap">
+                    <span>Share expecting improvement (0–100%)</span>
+                    <div id="opinion-scale"></div>
+                </div>
+
+                <figure class="opinion-figure">
+                    <div id="opinion-chart" class="opinion-chart-scroll">
+                        <p>Loading public opinion heatmap...</p>
+                    </div>
+                    <figcaption id="opinion-summary">
+                        Comparing expectations across countries.
+                    </figcaption>
+                </figure>
+                <p id="opinion-status" class="opinion-status" role="status"></p>
+
+                <p class="opinion-source">
+                    *Global is the published survey aggregate, not an unweighted
+                    average of these countries. Percentages represent respondents
+                    expecting things to get <em>better</em>, not observed job
+                    creation or displacement. Source: Stanford AI Index 2026,
+                    Figure 9.1.6 (Ipsos, 2025).
                 </p>
             </article>
 
