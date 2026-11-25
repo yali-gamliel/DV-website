@@ -16,6 +16,9 @@
     <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <script defer src="js/planning.js"></script>
     <script defer src="js/public-opinion.js"></script>
+
+    <!-- BLS Employment Change Chart -->
+    <script defer src="js/employment-change_barchart.js"></script>
 </head>
 
 <body>
@@ -200,6 +203,52 @@
                 </p>
                 <p>Coming soon.</p>
             </article>
+
+            
+            <!-- BLS: Projected Employment Change, 2025–2035 -->
+            <article id="employment-change" class="employment-change-section">
+            
+                <h3>Which Occupations Are Expected to Grow or Decline?</h3>
+            
+                <p class="change-description">
+                    Explore projected changes in U.S. occupational employment
+                    between 2025 and 2035. Select occupations to compare
+                    expected job growth and decline.
+                </p>
+            
+                <div class="employment-layout">
+            
+                    <!-- Occupation selection tree -->
+                    <div class="tree-panel">
+                        <h3>Select Occupations</h3>
+            
+                        <p id="change-selection-count"
+                           class="change-selection-count">
+                            0 occupations selected
+                        </p>
+            
+                        <div id="change-occupation-tree"></div>
+                    </div>
+            
+                    <!-- Diverging bar chart -->
+                    <div class="chart-panel">
+                        <h3>Change in Number of Jobs</h3>
+            
+                        <div id="employment-change-chart"></div>
+                    </div>
+            
+                </div>
+            
+                <p class="change-chart-note">
+                    Source: U.S. Bureau of Labor Statistics,
+                    Employment Projections 2025–2035.
+                    Values are expressed in thousands of jobs.
+                    Projections reflect multiple economic and technological
+                    factors and cannot be attributed to AI alone.
+                </p>
+            
+            </article>
+
         </section>
 
     </main>
