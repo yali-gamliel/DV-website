@@ -442,3 +442,134 @@ footer p {
 @media (max-width: 600px) {
     .opinion-chart-scroll svg { min-width: 670px; }
 }
+
+
+/* =========================================
+   BLS EMPLOYMENT CHANGE VISUALIZATION
+   ========================================= */
+
+.employment-change-section {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.employment-change-section .employment-layout {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+    margin-top: 24px;
+}
+
+.employment-change-section .tree-panel,
+.employment-change-section .chart-panel {
+    min-width: 0;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D6;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.employment-change-section .tree-panel h3,
+.employment-change-section .chart-panel h3 {
+    font-size: 1.1rem;
+    color: #002677;
+    border-bottom: 2px solid #199BFC;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#change-occupation-tree {
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.change-selection-count {
+    color: #515D68;
+    font-size: 12px;
+}
+
+.change-tree-node {
+    margin: 4px 0;
+}
+
+.change-tree-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px;
+}
+
+.change-tree-label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.change-tree-label input {
+    accent-color: #199BFC;
+    flex-shrink: 0;
+}
+
+.change-tree-children {
+    margin-left: 20px;
+}
+
+.change-tree-toggle {
+    background: transparent;
+    border: none;
+    color: #002677;
+    cursor: pointer;
+    width: 24px;
+    flex-shrink: 0;
+}
+
+.change-tree-spacer {
+    width: 24px;
+    flex-shrink: 0;
+}
+
+#employment-change-chart {
+    width: 100%;
+    min-width: 0;
+}
+
+.change-chart-scroll {
+    max-height: 550px;
+    width: 100%;
+    overflow: auto;
+}
+
+.change-chart-scroll svg {
+    display: block;
+}
+
+.change-empty-message,
+.change-data-warning {
+    color: #515D68;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.change-chart-note {
+    margin-top: 18px;
+    font-size: 0.86rem;
+    color: #515D68;
+    line-height: 1.6;
+}
+
+@media (max-width: 850px) {
+    .employment-change-section .employment-layout {
+        grid-template-columns: 1fr;
+    }
+
+    #change-occupation-tree {
+        height: 300px;
+    }
+}
+
