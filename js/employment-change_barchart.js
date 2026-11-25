@@ -33,7 +33,7 @@
         "11-0000",  // Management occupations
         "13-0000",  // Business and financial operations occupations
         "15-0000",  // Computer and mathematical occupations
-        "17-0000"   // Architecture and engineering occupations
+        "17-0000",   // Architecture and engineering occupations
         "35-0000",  // Food preparation and serving related occupations
         "41-0000",  // Sales and related occupations
         "43-0000",  // Office and administrative support occupations
