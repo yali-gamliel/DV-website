@@ -16,8 +16,8 @@
     // Configuration
     // ----------------------------------------
 
-    const HIERARCHY_PATH = "data/bls_occupation_hierarchy.json";
-    const EMPLOYMENT_PATH = "data/bls_employment.json";
+    const HIERARCHY_PATH = "data/processed/bls_occupation_hierarchy.json";
+    const EMPLOYMENT_PATH = "data/processed/bls_employment.json";
 
     const COLORS = {
         growth: "#91CDB4",
