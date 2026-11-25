@@ -14,6 +14,137 @@
 
 This metadata document covers **six related BLS tables**, not a single flat dataset. The accompanying source document provides table descriptions, column labels, record counts, and potential research questions. The indicated record counts are counts of HTML data rows according to that document, **not validated counts from downloaded files**.
 
+## Employment Projections Methodology (2025–2035)
+
+### 1. Overview
+
+The U.S. Bureau of Labor Statistics (BLS) develops 10-year employment projections using economic models, historical data, demographic trends, industry forecasts, and expert assessments.
+
+The projections do not simply extrapolate historical employment trends. Instead, they estimate how the U.S. economy, industries, and occupational staffing patterns may evolve over the projection period.
+
+- **Base year:** 2025
+- **Projection year:** 2035
+- **Geographic coverage:** United States
+- **Projection type:** Long-term, structural employment projections
+- **Key assumption:** The economy is projected under conditions broadly consistent with full employment, rather than attempting to predict specific future recessions or business cycles.
+
+### 2. Projection Development Process
+
+BLS develops its employment projections through six interconnected stages.
+
+| Stage | Description | Main Factors |
+|---|---|---|
+| 1. Labor Force | Projects the number of people participating in the labor market. | Population growth, aging, migration, labor force participation |
+| 2. Aggregate Economy | Projects overall economic activity and GDP. | Consumption, investment, productivity, government spending |
+| 3. Final Demand | Estimates future demand for goods and services. | Consumer demand, business investment, government expenditure, trade |
+| 4. Industry Output | Estimates the output required from each industry using input-output relationships. | Industry demand, supply chains, interindustry relationships |
+| 5. Industry Employment | Projects the workforce required to produce the expected industry output. | Labor productivity, output growth, wages, technological change |
+| 6. Occupational Employment | Distributes projected industry employment across occupations. | Occupational staffing patterns, technological change, industry structure |
+
+The six stages are interconnected, and projections may be revised iteratively to maintain consistency across economic and employment estimates.
+
+### 3. Occupational Employment Estimation
+
+Occupational projections are developed using the **National Employment Matrix**, which describes how employment is distributed across occupations and industries.
+
+BLS estimates future industry employment and then projects how the occupational composition of each industry may change.
+
+Consequently, employment in a particular occupation can increase or decrease because of:
+
+- Changes in overall demand for an industry's products or services.
+- Changes in labor productivity.
+- Technological developments and automation.
+- Changes in the occupational composition of industries.
+- Demographic, regulatory, and other structural factors.
+
+Occupational employment projections therefore reflect the combined effects of multiple economic forces rather than a single driver.
+
+### 4. How Artificial Intelligence Is Considered
+
+BLS considers potential AI-related employment impacts when evaluating technological and structural changes affecting occupational demand.
+
+AI may influence employment through several mechanisms:
+
+| Mechanism | Potential Employment Effect |
+|---|---|
+| Productivity improvements | Fewer workers may be required to produce the same output. |
+| Task automation | Some activities previously performed by workers may be automated. |
+| Increased demand | Lower costs or new capabilities may increase demand for products and services. |
+| Occupational restructuring | The distribution of workers across occupations may change. |
+| New tasks and services | Technological developments may create additional labor demand. |
+
+BLS draws on research, industry evidence, government publications, and expert assessments when evaluating potential technological impacts.
+
+**Importantly, AI is not represented as a single, separately reported employment-impact variable for each occupation.** Its potential effects are considered alongside other technological and economic developments.
+
+### 5. Interpretation and Limitations
+
+The following limitations are particularly important when using these projections in research.
+
+**Projections are not observed future outcomes.**
+
+The 2035 values represent modeled estimates based on assumptions about future economic conditions. They are not guaranteed employment outcomes.
+
+**Employment changes cannot be attributed exclusively to AI.**
+
+A projected increase or decrease in occupational employment may reflect demographic, economic, technological, regulatory, and industry-specific developments.
+
+**AI exposure does not necessarily imply job displacement.**
+
+An occupation may be highly exposed to AI technologies while maintaining or increasing employment because of growing demand, complementary tasks, or other factors.
+
+**Employment change is different from job openings.**
+
+An occupation projected to decline may still generate substantial job openings as workers retire or move to different occupations.
+
+**The projections describe employment levels, not changes in individual tasks.**
+
+They do not directly measure which tasks will be automated, augmented, or performed differently through AI.
+
+### 6. Implications for Our Research
+
+**Relevant supporting research questions:**
+
+- **RQ4:** How has employment changed across European occupations, and which U.S. occupations are projected to grow or decline?
+- **RQ5:** What contrasts emerge when these separate findings are viewed together, and what remains uncertain about AI-driven job replacement?
+
+Table 1.2 supports comparisons of projected occupational employment growth and decline between 2025 and 2035.
+
+However, the dataset alone cannot establish whether AI causes these changes.
+
+To investigate the relationship between AI and employment more meaningfully, these projections may be compared with:
+
+- Occupational AI-exposure measures.
+- Observed AI usage in workplace tasks.
+- Historical employment trends.
+- Qualitative explanations from BLS Table 1.12 (*Factors Affecting Occupational Utilization*).
+
+Any such comparison should be interpreted as descriptive or correlational unless additional evidence supports causal conclusions.
+
+### 7. Visualization Interpretation
+
+Our visualization compares occupational employment estimates for 2025 with projected employment levels for 2035.
+
+- **2025:** Baseline employment estimate.
+- **2035:** Projected employment level.
+- **Green:** Projected employment growth.
+- **Red:** Projected employment decline.
+- **Units:** Thousands of jobs.
+
+Colors indicate the direction of projected employment change, not whether AI has a positive or negative effect on the occupation.
+
+**Suggested visualization note:**
+
+*2035 employment figures are BLS projections based on demographic, economic, industry, and technological assumptions, including potential AI-related impacts. Changes cannot be attributed to AI alone.*
+
+### 8. Official Sources
+
+1. [BLS — Employment Projections Methods Overview](https://www.bls.gov/emp/documentation/projections-methods.htm)
+2. [BLS — Artificial Intelligence Impacts on Employment Projections](https://www.bls.gov/emp/factsheets/ai-impacts.htm)
+3. [BLS — Factors Affecting Occupational Utilization (Table 1.12)](https://www.bls.gov/emp/tables/factors-affecting-occupational-utilization.htm)
+4. [BLS — AI Exposure Categories](https://www.bls.gov/emp/publications/ai-exposure-categories.htm)
+5. [BLS — Employment Projections Data Overview](https://www.bls.gov/emp/documentation/data-overview.htm)
+
 | BLS table | Description | Records reported in source document | Main unit of observation | Source link |
 |---|---|---:|---|---|
 | 1.2 | Occupational projections and worker characteristics | 1,112 | Occupation / occupation group | [BLS Table 1.2](https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm) |
