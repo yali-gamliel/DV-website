@@ -16,7 +16,7 @@
     // Configuration
     // ----------------------------------------
 
-    const DATA_PATH = "data/bls_employment.json";
+    const DATA_PATH = "data/processed/bls_employment.json";
     const CONTAINER_ID = "#employment-waffle-chart";
 
     const COLORS = {
