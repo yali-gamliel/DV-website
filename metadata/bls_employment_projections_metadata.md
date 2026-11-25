@@ -30,6 +30,58 @@ The tables project employment, transitions, and openings. They do not measure AI
 
 ---
 
+## Employment Projections Methodology (2025–2035)
+
+### 1. Overview
+The U.S. Bureau of Labor Statistics (BLS) develops 10-year employment projections using economic models, historical data, demographic trends, technological developments, and expert assessments.
+
+The projections estimate long-term structural changes in employment rather than predicting short-term economic fluctuations.
+
+### 2. Projection Methodology
+
+BLS develops its projections through six stages:
+
+| Stage | Main Purpose |
+|---|---|
+| Labor Force | Estimate future workforce size based on demographic trends. |
+| Aggregate Economy | Project economic growth, GDP, consumption, and investment. |
+| Final Demand | Estimate demand for goods and services. |
+| Industry Output | Project production requirements across industries. |
+| Industry Employment | Estimate employment needs based on output and productivity. |
+| Occupational Employment | Distribute projected employment across occupations using the National Employment Matrix. |
+
+### 3. How AI Is Considered
+
+AI is considered as part of broader technological and structural changes affecting employment.
+
+Potential effects include:
+- **Automation:** Reducing the need for certain human tasks.
+- **Productivity:** Allowing workers to produce more with fewer resources.
+- **Demand growth:** Increasing demand for products, services, and certain occupations.
+- **Occupational restructuring:** Changing the distribution of workers across occupations.
+
+BLS does not provide a separate quantitative estimate of AI's contribution to employment changes for each occupation.
+
+### 4. Limitations and Research Implications
+
+- The 2035 figures are **projections, not observed employment outcomes**.
+- Employment changes may result from multiple economic, demographic, and technological factors.
+- Projected occupational decline does not necessarily indicate AI-driven job replacement.
+- Employment projections do not directly measure task automation or augmentation.
+
+**Research relevance:** Primarily RQ4 and RQ5.
+
+### 5. Visualization Note
+
+*The chart compares 2025 employment estimates with BLS projections for 2035. Projected changes reflect multiple economic and technological factors and cannot be attributed to AI alone.*
+
+### Official Sources
+
+- [BLS — Employment Projections Methodology](https://www.bls.gov/emp/documentation/projections-methods.htm)
+- [BLS — AI Impacts on Employment Projections](https://www.bls.gov/emp/factsheets/ai-impacts.htm)
+
+---
+
 ## 2. Table 1.2 — Occupational projections and worker characteristics
 
 **Original title:** Occupational projections and worker characteristics  
