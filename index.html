@@ -16,6 +16,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <script defer src="js/planning.js"></script>
     <script defer src="js/public-opinion.js"></script>
+    <script src="js/anthropic-automation.js" defer></script>
 
     <!-- BLS Employment Change Chart -->
     <script defer src="js/employment-change_barchart.js"></script>
@@ -196,7 +197,36 @@
                     Exploring how AI is used to automate tasks or assist people
                     across different occupations.
                 </p>
-                <p>Coming soon.</p>
+                <div class="anthropic-visualization">
+                    <button id="anthropic-back" type="button" hidden>
+                      ← Back
+                     </button>
+
+                <div id="anthropic-breadcrumb">
+                    All activity families
+                </div>
+                <div class="anthropic-legend">
+                    <span class="anthropic-legend-item">
+                        <span class="anthropic-legend-color anthropic-automation"></span>
+                        Automation
+                    </span>
+
+                    <span class="anthropic-legend-item">
+                        <span class="anthropic-legend-color anthropic-augmentation"></span>
+                        Augmentation
+                    </span>
+                </div>
+
+                <div id="anthropic-chart">
+                    <p>Loading activity data...</p>
+                </div>
+            <p class="anthropic-note">
+                Source: Anthropic Economic Index, May 2026,
+                global Claude Chat/Cowork usage.
+                Automation and augmentation describe observed
+                AI usage patterns, not measured job displacement.
+            </p>
+            </div>
             </article>
 
             <article>
